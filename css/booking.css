@@ -1,0 +1,79 @@
+.bg-style{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.room-tab-wrapper{
+	bottom: 10%;
+	left: 5%;
+	right: 5%;	
+}
+.room-tab{
+	background: #A4CBE0;
+	width: 100%;
+}
+.room-tab .nav-link, .room-tab .nav-item>.nav-link { 
+	color: white !important;
+	opacity: 0.7;
+	border-radius: 0 !important;
+}
+.room-tab .nav-link.active, .room-tab .show>.nav-link { 
+	opacity: 1;
+    background-color: rgba( 0, 0, 0, 0.05 ) !important;
+}
+
+#room_tabContent{
+	background-color: white;
+	width: 100%;
+	height: 132px;
+}
+.tab-pane .room-type{
+	border-right: 1px solid #A4CBE0;	
+}
+.tab-pane .room-type h1{
+	font-size: 1.8rem;	
+}
+.tab-pane .room-type h1,
+.tab-pane .room-type p{
+	color: #A4CBE0;
+	font-weight: 400;
+}
+.tab-pane .room-detail p{
+	color: #909090;
+	margin-bottom: 8px;
+}
+.tab-pane .btn-booking-room{
+	border-radius: 20px;
+}
+.room-lightbox{
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;	
+	position: relative;
+}
+.room-lightbox i,
+.room-lightbox svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;	
+	margin: auto;
+	color: white;
+}
+
+.top-title{
+    padding-right: 5%;
+    padding-top: 2rem;
+}
+.top-title h4,
+.top-title p{
+	color: white;
+	margin-bottom: 0;
+	font-weight: 400; 
+}
